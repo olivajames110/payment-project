@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "hamburger-react": "^2.4.0",
     "react": "^17.0.1",
+    "react-device-detect": "^1.15.0",
     "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "react-tooltip": "^4.2.14",
+    "react-transition-group": "^4.4.1",
+    "react-vis": "^1.11.7",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,AAAA,YAAY,CAAC;EACnB,QAAQ,EAAE,QAAQ;CAQlB;;AATD,AAEC,OAFM,AAAA,YAAY,CAElB,EAAE,CAAC;EAEF,UAAU,EAAE,CAAC;EAEb,WAAW,EAAE,KAAK;EAClB,aAAa,EAAE,IAAI;CACnB",
+    "sources": [
+        "Screen.scss"
+    ],
+    "names": [],
+    "file": "Screen.css"
+}

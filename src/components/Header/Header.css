@@ -1,0 +1,146 @@
+header {
+  position: fixed;
+  width: calc(100% - var(--sideNavWidth));
+  left: var(--sideNavWidth);
+  top: 0;
+  text-align: center;
+  height: var(--headerHeight);
+  z-index: 100;
+  background-color: #ffffff;
+  -webkit-box-shadow: var(--boxShadow);
+          box-shadow: var(--boxShadow);
+  border-bottom: var(--borderGraySecondary);
+}
+
+header .header-inner-wrapper {
+  height: inherit;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .header-inner-wrapper button {
+  background-color: transparent;
+  border: none;
+}
+
+header .header-inner-wrapper #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-inner-wrapper #logo svg {
+  display: inline-block;
+  height: 28px;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+header .header-inner-wrapper .user-actions-container {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-inner-wrapper .user-actions-container #header-notification-button {
+  width: 150px;
+  display: inline-block;
+}
+
+header .header-inner-wrapper .user-actions-container #header-profile-button {
+  width: 220px;
+  display: inline-block;
+}
+
+header .icon-wrapper {
+  padding: 14px;
+}
+
+header .icon-wrapper svg {
+  display: block;
+  height: 22px;
+  color: #ffffff;
+}
+
+header .hamburger-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .hamburger-icon-wrapper .hamburger-react {
+  display: inline-block;
+  height: 16px;
+  color: var(--bluePrimary);
+  fill: var(--bluePrimary);
+}
+
+header .hamburger-icon-wrapper svg {
+  display: inline-block;
+  height: 20px;
+  color: var(--bluePrimary);
+  fill: var(--bluePrimary);
+}
+
+header .test-btn {
+  position: absolute;
+  font-size: 12px;
+  top: 15px;
+  right: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    padding: 0 1.5em !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    left: 0;
+    width: 100%;
+  }
+  header #logo-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 15px;
+  }
+  header #logo-wrapper svg {
+    height: 16px;
+  }
+  header .header-inner-wrapper {
+    height: inherit;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
